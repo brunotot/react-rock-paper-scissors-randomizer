@@ -1,0 +1,19 @@
+.entity {
+	width: var(--entity-width);
+	aspect-ratio: 1 / 1;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+
+.entity[data-type="rock"] {
+	background-image: url("./../svg/rock.svg");
+}
+
+.entity[data-type="paper"] {
+	background-image: url("./../svg/paper.svg");
+}
+
+.entity[data-type="scissors"] {
+	background-image: url("./../svg/scissors.svg");
+}

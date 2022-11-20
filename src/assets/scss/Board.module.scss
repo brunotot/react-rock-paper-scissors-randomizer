@@ -1,0 +1,19 @@
+.board-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+
+	& .board {
+		container-type: inline-size;
+		width: var(--board-width);
+		aspect-ratio: 1 / 1;
+		position: relative;
+		background: rgba(255, 255, 255, 0.2);
+		border-radius: 1rem;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+		outline: 1px solid rgba(255, 255, 255, 0.3);
+	}
+}
